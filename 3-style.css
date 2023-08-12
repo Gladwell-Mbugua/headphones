@@ -7,7 +7,7 @@
     <meta name="description" content="Description of the page less than 150 characters">
     <link rel="icon" type="image/png" href="ASSETS/images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='0-styles.css'>
+    <link rel='stylesheet' href='3-styles.css'>
 </head>
 <body>
     <!--header/hero piece-->
@@ -16,7 +16,7 @@
         <div class="header">
             <div class="header-logo">
                 <a href="#">
-                  <img src="Assets/images/logo_headphones.png" alt="Headphones logo" width="162" height="32">
+                  <img src="ASSETS/images/logo.png" alt="Headphones logo" width="162" height="32">
                 </a>
             </div>
             <!--navigation bar menu list-->
@@ -36,15 +36,83 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M102.392 13.2361L106.197 16L104.744 20.4722H100.041L98.5882 16L102.392 13.2361Z" fill="white"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10C0 9.44772 0.447715 9 1 9H19C19.5523 9 20 9.44772 20 10C20 10.5523 19.5523 11 19 11H1C0.447715 11 0 10.5523 0 10ZM0 16C0 15.4477 0.447715 15 1 15H12C12.5523 15 13 15.4477 13 16C13 16.5523 12.5523 17 12 17H1C0.447715 17 0 16.5523 0 16ZM1 21C0.447715 21 0 21.4477 0 22C0 22.5523 0.447716 23 1 23H17C17.5523 23 18 22.5523 18 22C18 21.4477 17.5523 21 17 21H1Z" fill="white"/>
                 </svg>                       
-            </div>
+        </div>
         </div>
     <!--the main section text-->
     <main> 
         <div class="text">                      
-            <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
-            <h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>             
-            <button>CALL TO ACTION</button>           
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>                       
+            <h1 class="main-text">Lorem ipsum dolor set amet lorem ipsum</h1>
+            <h2 class="sub-text">Lorem ipsum dolor set amet lorem ipsum dolor set</h2>             
+            <button class="button">CALL TO ACTION</button>           
+            <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>                       
         </div>
     </main>
+    <!--what we do section-->
+    <section class="what-we-do-container">
+        <div class="what-we-do">
+            <h1 class="about">What we do...</h1>
+            <p class="about-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+        <div class="icons">
+          <div class="icon-item">
+            <img class="frequency" src="ASSETS/images/sound-frecuency.png" alt="sound-frecuency">
+            <h2 class="icon-text">Lorem ipsum</h2>
+              <p class="icon-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+          <div class="icon-item">
+            <img class="video" src="ASSETS/images/video.jpg" alt="video">
+            <h2 class="icon-text">Lorem ipsum</h2>
+            <p class="icon-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+          <div class="icon-item">
+            <img class="music" src="ASSETS/images/music.jpg" alt="music">
+            <h2 class="icon-text">Lorem ipsum</h2>
+            <p class="icon-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+          <div class="icon-item">
+            <img class="hearing" src="ASSETS/images/hearing.jpg" alt="hearing">
+            <h2 class="icon-text">Lorem ipsum</h2>
+            <p class="icon-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </section>
+    <!--the results section-->
+    <section class="results-container">
+      <div class="results">
+        <h1 class="results-text">Our results speak for themselves</h1>
+        <p class="results-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      <div class="marks">
+        <div class="marks-item">
+          <h1 class="percent">+2%</h1>
+          <p class="percent-info">Lorem ipsum dolor</p>
+        </div>
+        <div class="marks-item">
+          <h1 class="percent">+2%</h1>
+          <p class="percent-info">Lorem ipsum dolor</p>
+        </div>
+        <div class="marks-item">
+          <h1 class="percent">+2%</h1>
+          <p class="percent-info">Lorem ipsum dolor</p>
+        </div>
+        <div class="marks-item">
+          <h1 class="percent">+2%</h1>
+          <p class="percent-info">Lorem ipsum dolor</p>
+        </div>
+      </div>
+    </section>
+    <!--contact us section-->
+    <section class="contact">
+      <h1 class="contact-us">Contact us</h1>
+      <div>
+      <form class="form">
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <br>
+        <textarea id="message" name="message" placeholder="Message" required></textarea>
+      </form>
+      </div> 
+      <button class="button">CALL TO ACTION</button>
+    </section>
 </body>
+</html>
